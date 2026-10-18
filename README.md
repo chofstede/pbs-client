@@ -21,8 +21,7 @@ ghcr.io/chofstede/pbs-client:YYYYMMDD    # dated, for pinning
 ghcr.io/chofstede/pbs-client:sha-<short> # per commit
 ```
 
-Pull requests are built but not pushed. New ghcr packages are private by default;
-make it public under the package settings if hosts should pull without a login.
+Pull requests are built but not pushed. The package is public, so hosts can pull without a login.
 
 ## Build locally
 
