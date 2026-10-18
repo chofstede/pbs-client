@@ -5,6 +5,9 @@ installed from the official Proxmox `pbs-client` repository. It replaces
 `docker.io/ayufan/proxmox-backup-server:v3.4`; the entrypoint is the client
 itself, so there is no need for `--entrypoint` overrides.
 
+Background, the SELinux and mount details, and caveats are in the blog article
+[No Proxmox Backup Client for RHEL? Hold My Container Runtime](https://blog.hofstede.it/pbs-client-rhel-container/).
+
 - amd64: `main` component (current stable client)
 - arm64: Proxmox only publishes arm64 builds in the `test` component so far,
   so arm64 images pick those up automatically. Force a component set with
